@@ -96,7 +96,7 @@ CREATE TABLE Statistic (
     true_shooting_percentage FLOAT,
     PRIMARY KEY (player_ID, match_ID),
     FOREIGN KEY (player_ID) REFERENCES Athlete(player_ID),
-    FOREIGN KEY (match_ID) REFERENCES Match(match_ID)
+    FOREIGN KEY (match_ID) REFERENCES Game(match_ID)
 );
 
 CREATE TABLE Injury (
