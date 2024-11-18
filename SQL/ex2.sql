@@ -57,7 +57,7 @@ CREATE TABLE Athlete_Award (
         ON UPDATE CASCADE
 );
 
-CREATE TABLE Match (
+CREATE TABLE Game (
     match_ID INT AUTO_INCREMENT PRIMARY KEY,
     home_team_ID INT NOT NULL,
     away_team_ID INT NOT NULL,
